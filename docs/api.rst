@@ -1,13 +1,14 @@
 API Reference
 =============
 
-Package
--------
+..
+   Package
+   -------
 
-.. automodule:: orbitals
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   .. automodule:: orbitals
+	  :members:
+	  :undoc-members:
+	  :show-inheritance:
 
 Differential Equations
 ----------------------
@@ -16,6 +17,7 @@ Differential Equations
    :members:
    :undoc-members:
    :show-inheritance:
+   :special-members: +__call__
 
 Integrators
 -----------

@@ -22,6 +22,10 @@ class DifferentialEquation(ABC):
 class OrbitalMotion(DifferentialEquation):
     """Planar motion under gravity from a single mass at the origin.
 
+    Solves the equation:
+
+    .. math:: \\ddot{\\mathbf{r}} = -\\frac{GM}{r^3} \\mathbf{r}
+
     :param G: Gravitational constant.
     :param M: Mass of the central body.
     """
